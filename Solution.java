@@ -7,7 +7,7 @@ class Solution {
         {
             int left = i+1; // Pointers for our Bin search
             int right = nums.length-1;
-            //Implement a Binary Search for closest sum
+            //Implement a Search for closest sum
             while(left < right)
             {
                 sum = nums[i]+nums[left]+nums[right];
